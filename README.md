@@ -12,6 +12,7 @@ _Un bot sencillo para crear tickets mediante reacción dedicado a la comunidad d
 Necesitaras estos programas para poder iniciar correctamente tu bot.
 
 [Git](https://git-scm.com/) - Para clonar el código.
+
 [NodeJS](https://nodejs.org/es/) - Ejecutar el código.
 
 [Aplicacion / Bot](https://www.portalmybot.com/guia/mybot/cuenta-discord) - El bot donde se ejecutara el código.
@@ -31,6 +32,17 @@ Por ultimo instalamos los paquetes de npm.
 ```
 npm install
 ```
+
+### Notas 📰
+Si por alguna razón al instalar los paquetes hay un error debería revisar.
+
+- Que su node.js sea una versión mayor a la 12 (node -v para saber su versión).
+- Tener instalado Windows-Build-Tools globalmente (ejecutar como admin en powershell o cmd).
+```
+npm install --global windows-build-tools
+```
+
+Si esto no funciona recuerde leer esta [guía](https://github.com/JoshuaWise/better-sqlite3/blob/master/docs/troubleshooting.md) y sigue los pasos.
 
 ### Configuracion ⚙️
 Antes de iniciar su bot asegúrese de configurar completamente el config.json, dejo una pequeña instrucción de que es cada uno.
