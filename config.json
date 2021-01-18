@@ -1,0 +1,18 @@
+{
+  "token": "tu-token",
+  "use_mysql": false,
+
+  "mysql": {
+    "host": "localhost",
+    "username": "root",
+    "password": "",
+    "database": "ticket_bot"
+  },
+  
+  "data": {
+    "channel_id": "",
+    "message_id": "",
+    "parent_id": "",
+    "roles_ticket": [""]
+  }
+}

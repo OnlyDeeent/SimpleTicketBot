@@ -1,0 +1,17 @@
+{
+  "name": "simpleticketbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "DeeentDev",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "fs": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "quick.db": "^7.1.3"
+  }
+}

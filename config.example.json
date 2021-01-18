@@ -1,0 +1,18 @@
+{
+    "token": "Token-secreto",
+    "use_mysql": true,
+  
+    "mysql": {
+      "host": "localhost",
+      "username": "root",
+      "password": "12345",
+      "database": "ticket_bot"
+    },
+    
+    "data": {
+      "channel_id": "4542342222123",
+      "message_id": "123333323232323",
+      "parent_id": "123444332223232",
+      "roles_ticket": ["12344345", "2341234"]
+    }
+  }
